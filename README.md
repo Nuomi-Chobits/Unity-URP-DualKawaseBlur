@@ -1,5 +1,5 @@
 # UnityURPDualKawaseBlur
-    A Kawase blur is a close approximation of a Gaussian blur, but one that is more performant and requires slightly less texture memory. 
+A Kawase blur is a close approximation of a Gaussian blur, but one that is more performant and requires slightly less texture memory.
 
 <img width="339" alt="UnityURP-DualKawaseBlur" src="https://user-images.githubusercontent.com/89976115/150179462-a4e5367d-fa1e-4fcb-b241-f7aa868ca722.png">
 
