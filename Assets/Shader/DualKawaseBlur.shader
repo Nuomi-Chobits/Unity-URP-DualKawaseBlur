@@ -1,3 +1,4 @@
+//For more information, visit -> http://tajourney.games/5050/
 Shader "DualKawaseBlur"
 {
     Properties
