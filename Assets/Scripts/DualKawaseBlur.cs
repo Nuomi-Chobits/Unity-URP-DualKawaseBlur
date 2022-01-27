@@ -1,3 +1,4 @@
+//For more information, visit -> http://tajourney.games/5050/
 using UnityEngine;
 using UnityEngine.Rendering;
 using UnityEngine.Rendering.Universal;
@@ -8,17 +9,17 @@ public class DualKawaseBlur : ScriptableRendererFeature
     public class DualKawaseBlurSettings
     {
         
-        [Tooltip("¿ØÖÆ¿ª¹ØDualKawaseBlurPass")]
+        [Tooltip("æ§åˆ¶å¼€å…³DualKawaseBlurPass")]
         public bool bRenderDualKawaseBlur = true;
-        [Tooltip("Ö¸¶¨Ïà¹Ø²ÄÖÊ")]
+        [Tooltip("æŒ‡å®šç›¸å…³æè´¨")]
         public Material material = null;
-        [Tooltip("Éı/½µ²ÉÑùPass´ÎÊı")]
+        [Tooltip("å‡/é™é‡‡æ ·Passæ¬¡æ•°")]
         [Range(1, 6)]
         public int blurPasses = 4;
         [Tooltip("blur filter")]
         [Range(1f, 10f)]
         public float blurRadius = 1.5f;
-        [Tooltip("Ö¸¶¨passäÖÈ¾Ê±»ú")]
+        [Tooltip("æŒ‡å®špassæ¸²æŸ“æ—¶æœº")]
         public RenderPassEvent renderPassEvent;
         
     }
@@ -127,7 +128,7 @@ public class DualKawaseBlur : ScriptableRendererFeature
         scriptablePass = new DualKawaseBlurPass("DualKawaseBlur",settings);
 
         // Configures where the render pass should be injected.
-        scriptablePass.renderPassEvent = RenderPassEvent.AfterRenderingTransparents;//±ØĞëµÈ´ı³¡¾°äÖÈ¾ÍêÈ«ºóÖ´ĞĞ
+        scriptablePass.renderPassEvent = RenderPassEvent.AfterRenderingTransparents;//å¿…é¡»ç­‰å¾…åœºæ™¯æ¸²æŸ“å®Œå…¨åæ‰§è¡Œ
     }
 
     // Here you can inject one or multiple render passes in the renderer.
