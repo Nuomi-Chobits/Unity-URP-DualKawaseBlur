@@ -1,3 +1,4 @@
+[![license](http://img.shields.io/badge/license-MIT-blue.svg)](https://github.com/Nuomi-Chobits/UnityURP-DualKawaseBlur/blob/main/LICENSE)
 # UnityURPDualKawaseBlur
 Kawase dual filter blur for Unity URP
 
